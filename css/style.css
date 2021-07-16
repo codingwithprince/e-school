@@ -1,0 +1,123 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* Global value */
+:root{
+    --main-color: #fff ;
+    --green: #21B573;
+    --bg-color: #f0fff0;
+    --bg-fooer: #282531;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Main Starts */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* Navbar area */
+header{
+    background-color: var(--bg-color);
+}
+.navbar-brand img{
+    height: 50px;
+}
+.navbar-nav li{
+    padding: 0 15px;
+}
+.navbar-nav li a{
+    color: #000;
+    text-transform: capitalize;
+}
+.sign-in-btn{
+    background-color: var(--green);
+    color: #fff !important;
+    padding: 5px 50px;
+    border-radius: 20px;
+}
+
+/* banner area */
+#banner{
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.texts p{
+    padding-bottom: 20px;
+}
+.texts h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.texts h1 span{
+    color: var(--green);
+}
+.get-btn{
+    color: #fff;
+    background-color: var(--green);
+    border-radius: 20px;
+    padding: 5px 40px;
+    border:none;
+}
+
+/* Books area */
+#books{
+    padding: 50px 0;
+}
+#cardy{
+    padding: 20px 0;
+    border: none;
+    box-shadow: 2px 5px 2px lightgray;
+    transition: 0.5s ease-in-out;
+}
+#cardy:hover{
+    box-shadow: 2px 5px 10px lightgray;
+    scale: 1.1;
+}
+.card .book-img{
+    height: 100px;
+    width: 80px;
+}
+/* Course Area */
+.card{
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.card img{
+    padding: 15px;
+}
+.card-footer{
+    border-top: none;
+    background-color: transparent;
+}
+/* Testimonials */
+#testimonials{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.client-info{
+    padding-top: 50px;
+}
+.client-info img{
+    padding-left: 15%;
+    height: 100px;
+    padding-right: 20px;
+}
+.client-info p{
+    text-align: justify;
+    font-size: 15px;
+    padding-right: 15%;
+}
+/* Footer area */
+footer{
+    background-color: var(--bg-fooer);
+    color: #adacb0;
+}
+#footer{
+    padding: 50px 0;
+}
+.footer-item{
+    padding: 20px;
+}
+.footer-item ul{
+    list-style: none;
+}
